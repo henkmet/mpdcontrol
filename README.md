@@ -1,7 +1,7 @@
 mpdcontrol
 ==========
-Control the Music Player Daemon according to its current state and depending on
-the type of file that is being played
+Automatically control the Music Player Daemon according to its current state
+and depending on the type of file that is being played.
 
 This application is designed to be executed by a window manager or another
 program, it can be used directly, but it makes little sense since there are
