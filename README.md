@@ -1,5 +1,7 @@
 mpdcontrol
 ==========
+(deprecated by [ppYt](https://github.com/paulbarbu/ppyt))
+
 Automatically control the Music Player Daemon according to its current state
 and depending on the type of file that is being played.
 
