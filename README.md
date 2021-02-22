@@ -1,6 +1,6 @@
 mpdcontrol
 ==========
-(deprecated by [ppYt](https://github.com/paulbarbu/ppyt))
+Forked and adjusted for my system.
 
 Automatically control the Music Player Daemon according to its current state
 and depending on the type of file that is being played.
@@ -21,7 +21,7 @@ action according to the state of the player and to the file being played:
 License
 =======
 Copyright 2013 Barbu Paul - Gheorghe
-
+Copyright 2021 Henk Metselaar
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at
