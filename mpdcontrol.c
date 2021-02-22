@@ -5,8 +5,8 @@
 
 #include <mpd/client.h>
 
-#define MPDHOST "localhost"
-#define MPDPORT 6600
+#define MPDHOST "127.0.0.1"
+#define MPDPORT 0
 
 /**
  * Aquire a connection to the MPD daemon
