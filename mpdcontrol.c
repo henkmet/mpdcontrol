@@ -116,9 +116,8 @@ void mpdcontrol(){
         int matchcode = regexec(&expr, filename, 0, NULL, 0);
 
         if(matchcode == 0){
-            if(strstr(filename, "file://") == filename){ //match just at the start of the filename
-                //this means that mpd is playing a file outside the music_dir,
-                //but on disk, so we can safely pause
+            if(strstr(filename, "mp3")){ //mp3 at the end of the filename
+                //means that mpd is playing a file that we can safely pause
                 mpd_run_toggle_pause(conn);
             }
             else{
